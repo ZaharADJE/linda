@@ -1,20 +1,33 @@
+body{
+background:
+url('image/209556.jpg');
+background-size: cover ;
+align-items: center;
+display:flex;
+flex-direction: column;
 
-  
+}
+
+
 h1{
-    color: #f30b77;
+    color: #a11c1ca9;
     font-family: 'Montserrat', sans-serif;
     font-size: 3.5em;
     text-decoration: underline; 
-    
+    text-align: center;
 
 }
 
 label {
-    display: block;
+    display:flex;
+    justify-content: center;
     font: 1rem 'Fira Sans', sans-serif;
+    color: brown;
 }
 
 input,
 label {
     margin: 0.4rem 0;
+    
 }
+
