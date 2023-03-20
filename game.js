@@ -20,7 +20,6 @@ const ScoreTowe= document.getElementById('ScoreTowe');
 function lancerDe(){
     const nombreDecimal=(Math.random()*6)+1;
     const nombre= Math.floor(nombreDecimal);
-    const nombre= Math.floor(nombreDecimal);
     return nombre;
 }
 const deTexte = {
@@ -60,3 +59,4 @@ BoutonLancer.addEventListener('click', e =>{
 
 
 });
+}
