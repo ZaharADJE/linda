@@ -8,7 +8,18 @@ const ScoreTowe= document.getElementById('ScoreTowe');
 
 
 function lancerDe(){
+const playerOne= document.getElementById('playerOne');
+const playerTowe= document.getElementById('playerTowe');
+const BoutonLancer=document.getElementById('boutonLancer');
+const image= document.getElementById('image_dé');
+const ScoreOne= document.getElementById('ScoreOne');
+const ScoreTowe= document.getElementById('ScoreTowe');
+
+
+
+function lancerDe(){
     const nombreDecimal=(Math.random()*6)+1;
+    const nombre= Math.floor(nombreDecimal);
     const nombre= Math.floor(nombreDecimal);
     return nombre;
 }
@@ -20,6 +31,12 @@ const deTexte = {
     '5': 'Cinq',
     '6': 'Six',
 }
+console.log(deTexte['1']);
+console.log(deTexte['2']);
+console.log(deTexte['3']);
+console.log(deTexte['4']);
+console.log(deTexte['5']);
+console.log(deTexte['6']);
 console.log(deTexte['1']);
 console.log(deTexte['2']);
 console.log(deTexte['3']);
